@@ -1,0 +1,83 @@
+body {
+	background-image: url("https://thumbs.dreamstime.com/b/matrix-background-style-computer-virus-hacker-screen-wallpa-matrix-background-style-computer-virus-hacker-screen-wallpaper-119989759.jpg");
+}
+
+.container {
+	padding: 30px;
+	background-color: #1b1b1b;
+	margin: 32px;
+	border-radius: 10px;
+}
+
+.imagem {
+	padding: 30px;
+	border-radius: 50%;
+	max-width: 25%;
+}
+
+.perfil {
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.tema button {
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	margin-left: 120px;
+	border: 3px solid purple;
+	background-color: white;
+	cursor: pointer;
+	color: black;
+	align-self: flex-end;
+}
+
+.projetos {
+	background-color: #000000;
+	border-radius: 10px;
+	margin: 32px;
+	padding: 10px;
+	color: white;
+}
+
+.listaProjetos {
+	margin-left: 60px;
+	padding: 30px;
+	text-align: left;
+	line-height: 10px;
+}
+
+main {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+	line-height: 100px;
+}
+
+.projetos a {
+	color: white;
+	text-decoration: none;
+}
+
+.light .container {
+	background-color: white;
+}
+
+.light .perfil {
+	color: black;
+}
+
+.light .projetos {
+	background-color: #c5c6d0;
+}
+
+.light a {
+	color: black;
+}
+
+.light h2 {
+	color: black;
+}
