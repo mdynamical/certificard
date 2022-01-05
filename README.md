@@ -1,2 +1,3 @@
 # certificard
-About Me
+Displays projects done in a course
+
